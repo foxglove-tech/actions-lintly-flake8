@@ -17,7 +17,7 @@ inputs:
 
 runs:
   using: docker
-  image: Dockerfile
+  image: docker://epsyhealth/action-lintly-flake8:latest
 
 branding:
   icon: code
